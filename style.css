@@ -1,0 +1,79 @@
+:root{
+    --usecolor:#eae5db;
+  }
+  .container {
+      display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+      
+      
+    
+    
+    .image-container {
+      margin-right: 10px;
+      background-color:var(--usecolor);
+      border-radius: 3rem;
+      height: 30rem;
+    }
+    
+    .todo-container {
+      flex-grow: 1;
+    }
+    
+    .todo-cont {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    #enter {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+    
+    #addbtn {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 5px;
+      background-color: var(--usecolor);
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .todoslist {
+      margin-top: 20px;
+    }
+    
+    .todo {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    
+    .todo input[type="checkbox"] {
+      margin-right: 10px;
+    }
+    
+    .todo button {
+      margin-left: 10px;
+    }
+    
+    #down {
+      display: block;
+      width: 100%;
+      margin-top: 20px;
+      padding: 5px;
+      background-color:var(--usecolor);
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
